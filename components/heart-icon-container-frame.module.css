@@ -1,0 +1,641 @@
+.yourLogo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.contactInfoContainerFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 var(--padding-20xl);
+}
+.home1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.home {
+  height: 32px;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  min-width: 44px;
+}
+.classes1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.classesTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.classes {
+  width: 99px;
+  height: 32px;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.footerBackgroundFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.shop1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.shopTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.shop {
+  width: 99px;
+  height: 32px;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.footerBackgroundFrame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.gallery1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.galleryTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.gallery {
+  width: 99px;
+  height: 32px;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.footerBackgroundFrame2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.news1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.newsTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.news {
+  width: 99px;
+  height: 32px;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.footerBackgroundFrame3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.contact1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.contactTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.contact {
+  width: 99px;
+  height: 32px;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.footerBackgroundFrame4,
+.websiteLinkContainerFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerBackgroundFrame4 {
+  flex-direction: column;
+  padding: 0;
+}
+.websiteLinkContainerFrame {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-200);
+}
+.socialIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.4px;
+  right: 0;
+  bottom: 0.4px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.facebook176SvgrepocomIcon {
+  height: 34px;
+  width: 33px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.menuBar,
+.socialMediaLinks {
+  display: flex;
+  flex-direction: row;
+}
+.socialMediaLinks {
+  width: 285px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 var(--padding-8xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.menuBar {
+  width: 330px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.newsletterFormContainerFram {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+}
+.socialMediaLinksContainerF {
+  width: 621px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.opentime {
+  position: relative;
+}
+.span {
+  color: var(--color-gainsboro);
+  white-space: pre-wrap;
+}
+.monday {
+  position: relative;
+}
+.span1,
+.tuesdaySaturday {
+  white-space: pre-wrap;
+}
+.span1 {
+  color: var(--color-gainsboro);
+}
+.tuesdaySaturdayContainer {
+  position: relative;
+  z-index: 1;
+}
+.span2 {
+  color: var(--color-gainsboro);
+  white-space: pre-wrap;
+}
+.sunday {
+  position: relative;
+  z-index: 2;
+}
+.contactDetails,
+.homePageContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homePageContent {
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray);
+}
+.contactDetails {
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 21px 0;
+}
+.boxIcon,
+.newsletters {
+  position: relative;
+}
+.boxIcon {
+  height: 45px;
+  width: 370px;
+  display: none;
+  max-width: 100%;
+}
+.emailAddress {
+  position: relative;
+  z-index: 1;
+}
+.twitterIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.sendEmailSvgrepocomIcon {
+  height: 32px;
+  width: 31px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.latestTweets {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-6xs) var(--padding-5xs) var(--padding-7xs)
+    var(--padding-xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+}
+.mondayToSunday,
+.sHOP {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sHOP {
+  align-self: stretch;
+  gap: 16px 0;
+}
+.mondayToSunday {
+  flex: 1;
+  gap: 84px 0;
+  min-width: 240px;
+}
+.contactUs1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+}
+.add1900Pico {
+  align-self: stretch;
+  position: relative;
+}
+.tell1800 {
+  width: 174px;
+  position: relative;
+  display: inline-block;
+}
+.emailYouremaildomaincom {
+  align-self: stretch;
+  position: relative;
+}
+.skypeYourskype {
+  width: 169px;
+  position: relative;
+  display: inline-block;
+}
+.contactUs,
+.headerText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headerText {
+  align-self: stretch;
+  padding: 0 var(--padding-xl);
+  gap: 13px 0;
+}
+.contactUs {
+  width: 289px;
+  padding: 0 var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  gap: 20px 0;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray);
+}
+.latestTweets1 {
+  position: relative;
+}
+.emailSubscription {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+}
+.twitter154Icon {
+  width: 18px;
+  height: 12.8px;
+  position: relative;
+}
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+}
+.yogaHasNourished {
+  color: var(--color-dimgray);
+}
+.spiritAndGiven,
+.yourchanelYogaHasContainer {
+  position: relative;
+}
+.spiritAndGiven {
+  color: var(--color-dimgray);
+}
+.latestNews,
+.mainMenu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.mainMenu {
+  flex: 1;
+  flex-direction: column;
+  min-width: 223px;
+}
+.latestNews {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 11px;
+  color: var(--color-palevioletred-200);
+}
+.twitter154Icon1 {
+  width: 18px;
+  height: 12.8px;
+  position: relative;
+}
+.tellEmailSkype {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.yourchanel {
+  color: var(--color-palevioletred-200);
+}
+.welcomeToHeckContainer {
+  position: relative;
+  white-space: pre-wrap;
+}
+.sendEmailsvgrepocom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 11px;
+}
+.wordpressThemeYoga {
+  position: relative;
+}
+.newsletterForm {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 var(--padding-10xl);
+}
+.httpyourchanelcom {
+  position: relative;
+}
+.mondayTuesdaySaturdaySunday,
+.newsletterForm1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.newsletterForm1 {
+  flex-direction: row;
+  padding: 0 var(--padding-9xl);
+  color: var(--color-palevioletred-200);
+}
+.mondayTuesdaySaturdaySunday {
+  flex-direction: column;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.twitter154Icon2 {
+  width: 18px;
+  height: 12.8px;
+  position: relative;
+}
+.twitter154Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.welcomeToHeck {
+  position: relative;
+}
+.template {
+  color: var(--color-dimgray);
+}
+.psdTemplate {
+  position: relative;
+  color: var(--color-palevioletred-200);
+}
+.latestNews1,
+.welcomeToHeckOutOurYourCParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.welcomeToHeckOutOurYourCParent {
+  flex-direction: column;
+  max-width: calc(100% - 29px);
+}
+.latestNews1 {
+  flex-direction: row;
+  gap: 0 11px;
+  max-width: 100%;
+}
+.innerPageHeader,
+.socialMediaLinks1 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.socialMediaLinks1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: 29px 0;
+  max-width: 100%;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray);
+}
+.innerPageHeader {
+  flex: 1;
+  gap: 32px 0;
+  min-width: 242px;
+}
+.footer,
+.homeLinkContainerFrame,
+.innerPageHeader {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footer {
+  width: 1179px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0 74px;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+  font-family: var(--font-lato);
+}
+.homeLinkContainerFrame {
+  align-self: stretch;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-97xl) var(--padding-xl) var(--padding-99xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: 56px 0;
+  z-index: 4;
+}
+.allright2023 {
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+  text-align: center;
+}
+.heartIconContainerFrame {
+  width: 1608px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: 25px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-goldenrod);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .innerPageHeader,
+  .mondayToSunday {
+    flex: 1;
+  }
+  .footer {
+    flex-wrap: wrap;
+    gap: 0 74px;
+  }
+}
+@media screen and (max-width: 925px) {
+  .yourLogo {
+    font-size: var(--font-size-7xl);
+  }
+  .footer {
+    gap: 0 74px;
+  }
+  .homeLinkContainerFrame {
+    gap: 56px 0;
+    padding-top: var(--padding-56xl);
+    padding-bottom: var(--padding-58xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourLogo {
+    font-size: var(--font-size-lgi);
+  }
+  .latestTweets {
+    flex-wrap: wrap;
+  }
+  .mondayToSunday {
+    gap: 84px 0;
+  }
+  .latestNews {
+    flex-wrap: wrap;
+  }
+  .innerPageHeader {
+    gap: 32px 0;
+  }
+}

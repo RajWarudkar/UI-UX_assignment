@@ -1,0 +1,25 @@
+.welcomeToHermosa {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 3;
+}
+.textContentFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .welcomeToHermosa {
+    font-size: var(--font-size-lgi);
+  }
+}

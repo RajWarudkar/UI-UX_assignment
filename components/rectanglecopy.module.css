@@ -1,0 +1,27 @@
+.rectangle3Copy14 {
+  height: 48px;
+  width: 200px;
+  position: relative;
+  z-index: 7;
+}
+.startFreeTrial {
+  position: relative;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 8;
+  margin-left: -152px;
+}
+.rectangle3Copy14Parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}

@@ -1,0 +1,48 @@
+.wrapperYogaStylesSection,
+.yogaStylesSection {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 6;
+}
+.yogaStylesSection {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  left: 4px;
+  top: 3px;
+  transform: scale(1.306);
+}
+.wrapperYogaStylesSection {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heartSvgRectangle {
+  position: absolute;
+  top: 11px;
+  left: 18px;
+  width: 30.6px;
+  height: 42px;
+  object-fit: contain;
+  z-index: 7;
+}
+.pageTitleFrame {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.newsletter {
+  align-self: stretch;
+  height: 64px;
+  position: relative;
+}

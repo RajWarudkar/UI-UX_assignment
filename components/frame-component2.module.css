@@ -1,0 +1,117 @@
+.bgIcon {
+  width: 2081px;
+  height: calc(100% - 741px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -149px;
+  bottom: 741px;
+  max-height: 100%;
+  z-index: 6;
+}
+.todayBegins {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 7;
+}
+.todayBeginsWrapper {
+  width: 397px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-15xl);
+  color: var(--color-salmon);
+  font-family: var(--font-montserrat);
+}
+.aNewYou,
+.theJourneyTo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.theJourneyTo {
+  display: inline-block;
+  max-width: 100%;
+  z-index: 7;
+}
+.aNewYou {
+  z-index: 8;
+}
+.aNewYouWrapper {
+  width: 395px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-23xl) 0;
+  box-sizing: border-box;
+}
+.aNewYouWrapper,
+.bgParent,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 393px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.bgParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-386xl) var(--padding-xl) var(--padding-566xl)
+    var(--padding-424xl);
+  box-sizing: border-box;
+  position: relative;
+  min-height: 1596px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1350px) {
+  .bgParent {
+    padding-top: var(--padding-244xl);
+    padding-bottom: var(--padding-361xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .todayBegins {
+    font-size: var(--font-size-8xl);
+  }
+  .aNewYou,
+  .theJourneyTo {
+    font-size: var(--font-size-32xl);
+  }
+  .bgParent {
+    padding-left: var(--padding-202xl);
+    padding-top: var(--padding-152xl);
+    padding-bottom: var(--padding-228xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .todayBegins {
+    font-size: var(--font-size-xl);
+  }
+  .aNewYou,
+  .theJourneyTo {
+    font-size: var(--font-size-19xl);
+  }
+  .bgParent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
